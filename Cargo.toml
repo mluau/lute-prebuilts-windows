@@ -1,0 +1,7 @@
+[package]
+name = "lute-prebuilts-windows"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+lute-src-rs-common = { git = "https://github.com/mluau/lute-src-rs-common", default-features = false }
